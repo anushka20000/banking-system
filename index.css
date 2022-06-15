@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+    background-image: url("imgB.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.first {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+    background-color: rgba(210, 210, 210, 0.4);
+    height: 500px;
+}
+
+h1 {
+    padding-bottom: 5%;
+    font-family: "Montserrat";
+}
+
+.icon {
+    padding-top: 5%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.btn {
+    align-content: space-between;
+    text-shadow: 2px;
+}
+
+.ion {
+    padding-right: 5px;
+    padding-left: 5px;
+    zoom: 2;
+}
+
+.ion:hover {
+    color: deepskyblue;
+}

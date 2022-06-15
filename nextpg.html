@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Funds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="second">
+        <h1>Account name: Anushka Roy</h1>
+        <h3>Balance: Rs <span id="total-balance">20000</span></h3>
+        <div id="buttons" class="button">
+            <button class="btn btn-outline-dark btn-lg">Transfer Funds</button>
+        </div>
+    </div>
+
+    <div class="pop">
+        <div class="pop-content">
+            <img src="close.jpg" alt="close" class="close" id="close-win">
+            <ion-icon name="wallet"></ion-icon>
+            <div class="in"><input type="text" id="name" name="name" placeholder="Receiver name"></div>
+            <div class="in"><input type="text" id="amt" name="amount" placeholder="Amount"></div>
+            <div class="bttn">
+                <button class="btn btn-outline-dark btn-lg" id="send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-dark table-striped">
+        <tr>
+            <td>Serial No.</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Balance</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="swag">Swagatam Sinha</td>
+            <td>swagatam115@gmail.com</td>
+            <td><span id="s">500</span></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="ani">Animesh Roy</td>
+            <td>animesh@gmail.com</td>
+            <td id="a">2000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="ban">Banhisikha Roy</td>
+            <td>banhisikha@gmail.com</td>
+            <td id="b">8000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td id="tan">Tanushka Roy</td>
+            <td>tanushka@gmail.com</td>
+            <td id="t">19000</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td id="vir">Virat Sharma</td>
+            <td>virat@gmail.com</td>
+            <td id="v">12000</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td id="ma">Anima Roy</td>
+            <td>anima@gmail.com</td>
+            <td id="n">40000</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td id="swas">Swastika Roy</td>
+            <td>swastika@gmail.com</td>
+            <td id="w">8500</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td id="por">Portia Roy</td>
+            <td>portia@gmail.com</td>
+            <td id="p">10800</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td id="ai">Aishani Hazra</td>
+            <td>aishani@gmail.com</td>
+            <td id="i">9700</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td id="sam">Samadrita Roy</td>
+            <td>samadrita@gmail.com</td>
+            <td id="m">17700</td>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

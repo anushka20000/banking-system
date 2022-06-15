@@ -1,0 +1,81 @@
+.second {
+    background-color: #F47C7C;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+h3 {
+    padding-bottom: 25px;
+    font-family: "Montserrat";
+}
+
+table {
+    margin-top: 10px;
+}
+
+.button {
+    padding-bottom: 10px;
+}
+
+.btn {
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+}
+
+.pop {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    display: none;
+    left: 520px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-content {
+    height: 300px;
+    width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 75%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+ion-icon {
+    zoom: 3.5;
+    color: black;
+}
+
+.close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: black;
+}
+
+.bttn {
+    padding-top: 25px;
+}
+
+.in {
+    padding-top: 10px;
+}
